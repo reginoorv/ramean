@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Base Circle - Representing Global Community -->
+  <circle cx="200" cy="200" r="180" fill="url(#communityGradient)"/>
+
+  <!-- Main Logo Group -->
+  <g transform="translate(200,200) scale(0.9)">
+    <!-- Modern R with Network Points -->
+    <path d="M-60,-80 
+             C-20,-80 20,-80 50,-40
+             Q70,0 50,40
+             L80,80 L40,80
+             L10,40 L-20,40 L-20,80
+             L-60,80 Z" 
+          fill="white"/>
+
+    <!-- Network Pattern - Representing AI Connections -->
+    <path d="M-80,-80 L80,80" stroke="white" stroke-width="2" opacity="0.3"/>
+    <path d="M80,-80 L-80,80" stroke="white" stroke-width="2" opacity="0.3"/>
+    <path d="M0,-90 L0,90" stroke="white" stroke-width="2" opacity="0.3"/>
+
+    <!-- Community Nodes - Representing Different Users -->
+    <circle cx="-60" cy="-60" r="8" fill="white"/>
+    <circle cx="60" cy="-60" r="8" fill="white"/>
+    <circle cx="-60" cy="60" r="8" fill="white"/>
+    <circle cx="60" cy="60" r="8" fill="white"/>
+    <circle cx="0" cy="0" r="12" fill="white"/> <!-- Central AI Hub -->
+
+    <!-- Connection Lines to Central Hub -->
+    <path d="M-60,-60 L0,0" stroke="white" stroke-width="2" opacity="0.5"/>
+    <path d="M60,-60 L0,0" stroke="white" stroke-width="2" opacity="0.5"/>
+    <path d="M-60,60 L0,0" stroke="white" stroke-width="2" opacity="0.5"/>
+    <path d="M60,60 L0,0" stroke="white" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- Dynamic Gradient -->
+  <defs>
+    <linearGradient id="communityGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>  <!-- Energetic Red -->
+      <stop offset="50%" style="stop-color:#FF8E53"/> <!-- Warm Orange -->
+      <stop offset="100%" style="stop-color:#FFD93D"/> <!-- Vibrant Yellow -->
+    </linearGradient>
+  </defs>
+</svg>
